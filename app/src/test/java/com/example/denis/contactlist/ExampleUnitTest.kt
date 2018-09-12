@@ -18,7 +18,7 @@ class ExampleUnitTest {
     @Test
     @Throws(Exception::class)
     fun add_wrongTest() {
-        assertEquals(4, sum(3, 2))
+        assertEquals(4, sum(2, 2))
     }
 
     @Test
